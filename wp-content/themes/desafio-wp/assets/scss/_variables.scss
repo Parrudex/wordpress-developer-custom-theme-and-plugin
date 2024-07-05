@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* FONTS
+-------------------------------------------------- */
+
+$ff-black: "CircularSpotifyTxT-Black", Helvetica, Arial, sans-serif;
+$ff-med: "CircularSpotifyTxT-Med", Helvetica, Arial, sans-serif;
+
+/* COLORS
+-------------------------------------------------- */
+
+$c-red: #FF0000 !default;
+$c-gray1: #121212 !default;
+$c-gray2: #5A5A5A !default;
+
+/* GLOBAL
+-------------------------------------------------- */
+
+$body-background: black;
+$nav-link: white;
+$nav-link-focus: $c-red;
+$nav-active: $c-red;
+$link: black;
+$link-focus: $c-red;

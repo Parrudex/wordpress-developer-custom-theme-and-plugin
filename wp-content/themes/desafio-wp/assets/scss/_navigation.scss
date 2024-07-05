@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar__main {
+  background: black;
+  padding: 1.25rem 0;
+  .navbar-brand {
+    img {
+      height: 25px
+    }
+  }
+  .nav-link {
+    color: $nav-link;
+    font-size: 1.2rem;
+    &:hover, &:focus, &.active {
+      color: $nav-active
+    }
+  }
+}
+.navbar__mobile {
+  background: rgba(0,0,0,.9);
+  position: fixed;
+  bottom: -1px;
+  right: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  z-index: 1030;
+  a.navbar__mobile_icon {
+    color: $nav-link;
+    font-size: .9rem;
+    .icon_svg {
+      fill:#fff
+    }
+    &:hover, &:focus, &.active {
+      color: $nav-active;
+      .icon_svg {
+          fill: $c-red
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar__main {
+    .navbar-brand {
+      img {
+        height: 35px
+      }
+    }
+  }
+}
